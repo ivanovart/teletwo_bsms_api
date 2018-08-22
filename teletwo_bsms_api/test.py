@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from core import TeleTwoAPI
+from .core import TeleTwoAPI
 
-TeleTwoAPI('testlogin', 'testpass', 'testname').send_message('7 903 999 99 99', 'Немного мессаджа')
+"""
+partner_login, partner_password, sender_name
+"""
+
+TeleTwoAPI('partner_login', 'partner_password', 'sender_name').send_message('+79999999999', 'Немного мессаджа')

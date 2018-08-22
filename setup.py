@@ -4,9 +4,9 @@
 from distutils.core import setup
 
 setup(name='teletwo_bsms_api',
-    version='0.0.1',
+    version='0.0.2',
     description='Не официальная библиотека для работы с API TELE2 для отправки смс сообщений через HTTP протокол',
-    url='https://github.com/abesmon/teletwo_bsms_api.git',
+    url='https://github.com/ivanovart/teletwo_bsms_api',
     author='Alexey Lysenko [abesmon]',
     author_email='abesmon@gmail.com',
     license='MIT',
